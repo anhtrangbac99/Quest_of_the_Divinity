@@ -1,1 +1,1 @@
-# Quest_of_the_Divinity
+# Quest of the Divinity
