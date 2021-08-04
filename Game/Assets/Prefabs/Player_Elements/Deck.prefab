@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3763626765344265577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3763626765344265576}
+  - component: {fileID: 3763626765344265575}
+  m_Layer: 0
+  m_Name: Deck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3763626765344265576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3763626765344265577}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14, y: -2.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3763626765344265575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3763626765344265577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4497c02ab2a994c428f6adc4778c14b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  one_gold_cards:
+  - {fileID: 5495476318452691277, guid: 8fe4f474f06a5e94581578a38dab2cb1, type: 3}
+  - {fileID: 9154823663720797073, guid: c0024391100dcce4189d310d341d5041, type: 3}
+  - {fileID: 5495476318452691277, guid: e085dd35d6c163642b57ffd338bf9aa7, type: 3}
+  - {fileID: 5495476318452691277, guid: f31b27460c61cc34eb1b8cf401161f5f, type: 3}
+  - {fileID: 5495476318452691277, guid: dd3571f8fdb74ba4f89cf35ac6de219a, type: 3}
+  - {fileID: 5495476318452691277, guid: c6a4512f5bb632245b3b0b5d0a95f596, type: 3}
+  two_gold_cards:
+  - {fileID: 9154823663720797073, guid: 9d36b169818e00a44b2d24cbd9239cea, type: 3}
+  - {fileID: 9154823663720797073, guid: 32660079e80d1474cb55aa7272d03be7, type: 3}
+  - {fileID: 9154823663720797073, guid: 93dd6c3f55199ff4b8a6207c0ce6ca74, type: 3}
+  - {fileID: 5495476318452691277, guid: 60406b7d985741d4b804dd30f18402c1, type: 3}
+  - {fileID: 5495476318452691277, guid: bf025ab126e45304c9c57a0097f8a2e9, type: 3}
+  - {fileID: 5495476318452691277, guid: d1eec6d6fba3f174fa3b3142a35dfe5f, type: 3}
+  - {fileID: 5495476318452691277, guid: 33ec167533e8ee04e881c7e503a39a58, type: 3}
+  - {fileID: 9154823663720797073, guid: 97f1aa5835ee43e45ab4af967d4c181b, type: 3}
+  three_gold_cards:
+  - {fileID: 9154823663720797073, guid: 6e39f8f48c972514db1a1564ead33bff, type: 3}
+  - {fileID: 9154823663720797073, guid: 54e44ba3b72801d4ea76fa3097d103c7, type: 3}
+  - {fileID: 5495476318452691277, guid: 2f40e61699e61954dac75e4086dea894, type: 3}
+  - {fileID: 5495476318452691277, guid: 1d15436672a77174cad6e908eda323f9, type: 3}
+  - {fileID: 5495476318452691277, guid: 78912ed15497e4247bd3f1e8b41141d0, type: 3}
+  - {fileID: 5495476318452691277, guid: 7af8716d9976c0443a42a0d49fc3864c, type: 3}
+  - {fileID: 9154823663720797073, guid: c50cdf27274aebc4e9169af68b22064e, type: 3}
+  - {fileID: 9154823663720797073, guid: 6d60a8ccf4030d64da39e45c492093b4, type: 3}
+  four_gold_cards:
+  - {fileID: 9154823663720797073, guid: cb4dbf1ba7b408e4e98a9629134267c3, type: 3}
+  - {fileID: 9154823663720797073, guid: 6c3972fd4eac9634e8baebbf22b7ad22, type: 3}
+  - {fileID: 5495476318452691277, guid: 54776f495f9bc464f9a0220ebcd09c1d, type: 3}
+  - {fileID: 5495476318452691277, guid: 8f1b0bc1608fabd48a5ed3142398628e, type: 3}
+  - {fileID: 5495476318452691277, guid: d6ea5b0dce31b0649ba5a9ab890a78d5, type: 3}
+  - {fileID: 5495476318452691277, guid: 552e651e3b3ce4e45b540eef84b105ec, type: 3}
+  - {fileID: 5495476318452691277, guid: cc70eaa23c46e55429f6e4f9af285f5e, type: 3}
+  - {fileID: 9154823663720797073, guid: fe497ec75dd9771449ffa46c2a8416e7, type: 3}
+  - {fileID: 9154823663720797073, guid: cba26f6ac1e79c54c9c21d81bb5cef44, type: 3}
+  - {fileID: 9154823663720797073, guid: a22f54e7d7259c84d937dde261b30955, type: 3}
+  five_gold_cards:
+  - {fileID: 9154823663720797073, guid: 33218a86c0d04e7408ab38b47aab25c3, type: 3}
+  - {fileID: 5495476318452691277, guid: a7f2c928e3a944143bd7de675fbd970e, type: 3}
+  - {fileID: 5495476318452691277, guid: 0d58a0e3dfce3fd43b796a8a47ca62c1, type: 3}
+  - {fileID: 5495476318452691277, guid: 8054ae8478acdbc499d9b784fa6fb812, type: 3}
+  - {fileID: 5495476318452691277, guid: 3b8acdf6d9fffb54ea62a476e9a3b101, type: 3}
+  - {fileID: 9154823663720797073, guid: eb14823468a4c7e44b42d2ae1ad2f4c7, type: 3}
+  six_gold_cards:
+  - {fileID: 5495476318452691277, guid: 3747f0b663b31ae40a5b28814b4a3c3a, type: 3}
+  - {fileID: 5495476318452691277, guid: 59984acbf94cc4a43b2d58e806ee9bef, type: 3}
+  - {fileID: 5495476318452691277, guid: 18df77353d258d947b526855adc23a3e, type: 3}
+  - {fileID: 5495476318452691277, guid: 9357b904af3760b47b34f7d59824d64e, type: 3}
+  - {fileID: 9154823663720797073, guid: 4edf904f8f35d544bb665c40f5244ae7, type: 3}
+  - {fileID: 9154823663720797073, guid: 9e4d4dcfefd2b2f4abd57e328b5e5dcc, type: 3}
+  seven_gold_cards:
+  - {fileID: 9154823663720797073, guid: e70bdad8a5e32af4190b95864ef132d3, type: 3}
+  - {fileID: 5495476318452691277, guid: cb19df19ed09668408649de3b00abf18, type: 3}
+  - {fileID: 5495476318452691277, guid: 24b4657a7ce4e57499850ea5d5dca026, type: 3}
+  - {fileID: 5495476318452691277, guid: 92db0df533f38d54e8eae1b9a336843d, type: 3}
+  eight_gold_cards:
+  - {fileID: 5495476318452691277, guid: 59aec8ce99a564742956ea54c9cfa5db, type: 3}
+  - {fileID: 5495476318452691277, guid: 9105d5154543e0d4cb4539c1e1ae0ed6, type: 3}
+  - {fileID: 5495476318452691277, guid: 0f0391261b8b5eb46930112cfaf896dc, type: 3}
+  - {fileID: 9154823663720797073, guid: 288e33c34439b2a4582ee31e5af9a304, type: 3}
